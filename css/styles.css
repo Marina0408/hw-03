@@ -15,12 +15,39 @@ body {
     color: var(--primary-text-color);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+}
+
+ul,
+ol {
+padding-left: 0;
+margin: 0;    
+}
+
+button {
+    cursor: pointer;
+}
+
 .list {
 list-style: none;
 }   
 
 .link {
 text-decoration: none;
+}
+
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
 }
 
 /* ---------------------Ш-А-П-К-А----------------- */
@@ -42,7 +69,10 @@ color: var(--accent-color);
 color: var(--header-studio-color);
 }
 
-
+.header {
+padding-top: 24px;
+padding-bottom: 25px;
+}
 
 .header-list .link {
 font-weight: 500;
@@ -78,32 +108,41 @@ color: var(--accent-color);
 /* --------------------H E R O-------------------------------    */
 
 .hero {
-   background-color: var(--background-hero-footer); 
+background-color: var(--background-hero-footer);
+padding-top: 200px;
+padding-bottom: 200px;
+text-align: center;
 }
 
 .hero-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white-color);
+max-width: 696px;
+margin: 0 auto;
+margin-bottom: 30px;
 }
 
 .hero-btn {
+min-width: 200px;
+height: 50px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 font-family: inherit;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
+display: inline-block;
 align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: var(--white-color);
 background-color: var(--accent-color);
 cursor: pointer;
+margin: 0 auto;
 }
 
 .hero-btn:hover {
