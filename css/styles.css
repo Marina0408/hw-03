@@ -13,6 +13,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
+    margin: 0;
 }
 
 p,
@@ -48,12 +49,39 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
+
 }
 
 /* ---------------------Ш-А-П-К-А----------------- */
 
+.header {
+padding-top: 24px;
+padding-bottom: 25px;
+}
+
+.header .container {
+display: flex;
+align-items: center;
+}
+
+
+.header-list {
+display: flex;
+align-items: center;
+}
+
+.header-item:not(:last-child) {
+margin-right: 50px;
+}
+
+.contacts-list {
+display: flex;
+align-items: center;
+margin-left: auto;   
+}
 
 .logo {
+ margin-right: 93px;
  font-family: "Raleway", sans-serif;
  font-weight: 700;
  font-size: 26px;
@@ -69,12 +97,8 @@ color: var(--accent-color);
 color: var(--header-studio-color);
 }
 
-.header {
-padding-top: 24px;
-padding-bottom: 25px;
-}
-
 .header-list .link {
+display: block;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -91,19 +115,28 @@ color: var(--accent-color);
 color: var(--accent-color);
 }
 
+.header-mail, .header-tel {
+display: block;
+}
+
 .contacts-list .link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
-
 }
 
 .link:focus,
 .link:hover {
 color: var(--accent-color);
 }
+
+.contacts-list .contacts-item + .contacts-item {
+margin-left: 50px;    
+}
+
+
 
 /* --------------------H E R O-------------------------------    */
 
