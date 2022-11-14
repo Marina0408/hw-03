@@ -33,7 +33,7 @@ margin: 0;
 }
 
 button {
-    cursor: pointer;
+cursor: pointer;
 }
 
 .list {
@@ -53,11 +53,6 @@ margin: 0 auto;
 }
 
 /* ---------------------Ш-А-П-К-А----------------- */
-
-.header {
-padding-top: 24px;
-padding-bottom: 25px;
-}
 
 .header .container {
 display: flex;
@@ -98,6 +93,8 @@ color: var(--header-studio-color);
 }
 
 .header-list .link {
+padding-top: 32px;
+padding-bottom: 32px;
 display: block;
 font-weight: 500;
 font-size: 14px;
@@ -120,6 +117,8 @@ display: block;
 }
 
 .contacts-list .link {
+padding-top: 32px;
+padding-bottom: 32px;  
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -145,6 +144,7 @@ background-color: var(--background-hero-footer);
 padding-top: 200px;
 padding-bottom: 200px;
 text-align: center;
+
 }
 
 .hero-title {
@@ -186,7 +186,13 @@ margin: 0 auto;
 /* -------------Основная информация------------- */
 /* --------------------features---------------- */
 
+.features {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
 .features-item-title {
+margin-bottom: 10px;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -203,12 +209,23 @@ letter-spacing: 0.03em;
 }
 
 .features-list {
-    display: flex;
+display: flex;
+
+}
+
+.features-item {
+min-width: 270px;
+margin: 15px;
 }
 
 /* //////////////    OCCUPATION   //////// */
 
+.occupation {
+margin-bottom: 94px;    
+}
+
 .occupation-title {
+margin-bottom: 50px;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -225,10 +242,13 @@ color: var(--secondary-text-color);
 /* ///////////////     STAFF     ////////////// */
 
 .staff {
-    background-color: var(--background-team);
+padding-bottom: 94px;
+background-color: var(--background-team);
 }
 
 .staff-title {
+margin-bottom: 50px;
+padding-top: 94px;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -258,16 +278,27 @@ color: var(--primary-text-color);
 
 .staff-list {
     display: flex;
+    
 }
 
 /* -------------------F O O T E R--------------------*/
 
 .footer {
-    background-color: var(--background-hero-footer);
+padding-top: 60px;
+padding-bottom: 60px;
+background-color: var(--background-hero-footer);
+}
+
+.logo-footer {
+ font-family: "Raleway", sans-serif;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.19;
+ letter-spacing: 0.03em;    
 }
 
 .logo-studio-footer {
-color: var(--white-color);
+color: var(--white-color);    
 }
 
 .contacts {
