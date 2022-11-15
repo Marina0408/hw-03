@@ -58,11 +58,14 @@ outline: 1px solid tomato;
 
 /* ---------------------Ш-А-П-К-А----------------- */
 
+.header {
+border: 1px solid #ECECEC;
+}
+
 .header .container {
 display: flex;
 align-items: center;
 }
-
 
 .header-list {
 display: flex;
@@ -314,6 +317,7 @@ padding-bottom: 60px;
 background-color: var(--background-hero-footer);
 }
 
+
 .logo-footer {
  font-family: "Raleway", sans-serif;
  font-weight: 700;
@@ -327,10 +331,12 @@ color: var(--white-color);
 }
 
 .contacts {
-    font-style: normal;
+margin-top: 20px;
+font-style: normal;
 }
 
 .contacts .footer-address {
+margin-bottom: 9px;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -344,6 +350,14 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--footer-mail-tel);
+}
+
+.contacts .footer-mail {
+margin-bottom: 9px;    
+}
+
+.contacts .link {
+display: block;
 }
 
 .contacts .link:hover, 
