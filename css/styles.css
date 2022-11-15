@@ -32,6 +32,10 @@ padding-left: 0;
 margin: 0;    
 }
 
+img {
+display: block;
+}
+
 button {
 cursor: pointer;
 }
@@ -49,7 +53,7 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
-
+outline: 1px solid tomato;
 }
 
 /* ---------------------Ш-А-П-К-А----------------- */
@@ -210,7 +214,7 @@ letter-spacing: 0.03em;
 
 .features-list {
 display: flex;
-
+margin: -15px;
 }
 
 .features-item {
@@ -221,7 +225,7 @@ margin: 15px;
 /* //////////////    OCCUPATION   //////// */
 
 .occupation {
-margin-bottom: 94px;    
+padding-bottom: 94px;    
 }
 
 .occupation-title {
@@ -236,7 +240,15 @@ color: var(--secondary-text-color);
 }
 
 .occupation-list {
-    display: flex;
+display: flex;
+margin: -15px;
+width: 100%;
+height: auto;
+}
+
+.occupation-item {
+margin: 15px;
+   
 }
 
 /* ///////////////     STAFF     ////////////// */
@@ -259,6 +271,7 @@ color: var(--secondary-text-color);
 }
 
 .staff-name {
+margin-bottom: 10px;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -277,8 +290,20 @@ color: var(--primary-text-color);
 }
 
 .staff-list {
-    display: flex;
-    
+display: flex;
+margin: -15px;    
+}
+
+.staff-item {
+margin: 15px;
+padding-bottom: 30px;
+background-color: var(--white-color);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.staff-list img {
+margin-bottom: 30px;    
 }
 
 /* -------------------F O O T E R--------------------*/
